@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: o;
+    font-family: Poppins ;
+}
+body{
+    width: 75%;
+    height: auto;
+}
+
+header{
+    width: 100%;
+    background-color: rgba(2, 158, 119, 0.959);
+    margin-left: 170px;
+    margin-top: 10px;
+}
+section{
+    display:flex;
+    margin-right: 50px;
+}
+img{
+    width: 130px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.details{
+    display: block;
+    margin-left: 120px;
+    margin-top: 40px;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 10px;
+    
+}
+header > section > .details > h5{
+    text-align: center;
+    font-size: 13px;
+    font-weight: 600;
+}
+header > section > .details > h3{
+    text-align: center;
+    font-size: 17px;
+    font-weight: 700;
+}
+header > section > .details > h1{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+}
+header > section > .details > h6{
+    text-align: center;
+    font-size: 11px;
+    font-weight: 600;
+}
+nav{
+    
+    background-color: rgb(2, 110, 74);
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+li{
+    display: inline;
+    font-size: 14px;
+    margin-right: 5px;
+    text-decoration: none;
+    border: 1px solid gold;
+}
+nav > ul > li > a{
+    color: white;
+    text-decoration: none;
+}
+main{
+    width: 100%;
+    margin-left: 170px;
+    margin-top: 10px;
+}
+label{
+    display: block;
+    margin: 10px;
+}
+fieldset{
+    width: 957px;
+}
+legend{
+    background-color: rgb(2, 194, 130);
+    color: white;
+    border-radius: 20px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+p{
+    text-align: center;
+    font-weight: 900;
+}
+input{
+    width: 50%;
+}
